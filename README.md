@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+# Secure Drop
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Secure Drop is a privacy-focused web application that enables users to share secrets—whether they’re text messages or images—with others in a secure and temporary manner. Here’s how it works: You upload your secret content, and Secure Drop generates a unique link. When the recipient opens the link, they can view the secret, but once they’ve seen it, it’s gone forever. Additionally, you can add an extra layer of protection by setting a password for the secret link.
 
-## Available Scripts
 
-In the project directory, you can run:
+- Upload text messages or images
+- Receive a one-time-use link associated with the secret content..
+- Share the link with your intended recipient.
+- User-friendly interface built with React .
+- When the recipient opens the link, the secret is revealed.
+- After viewing, the secret is automatically deleted—no traces left behind.
+- Optionally set a password for the secret link.
+- Recipients must enter the correct password to access the secret.
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Tech Stack
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**Client:**  
+* React.js 
+*  Firebase
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Installation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Clone the repository to your local machine:
+```sh
+git clone https://github.com/divyansh2209/SecureDrop.git
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+- Install the dependencies:
+```sh
+npm install
 
-### `npm run eject`
+```
+**Configure Firebase**:
+* Create a Firebase project on the Firebase Console.
+* Obtain your Firebase configuration (API keys, etc.).
+* Add the configuration to your app (usually in a .env file).:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
